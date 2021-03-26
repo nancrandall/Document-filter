@@ -1,4 +1,6 @@
-# Base Webpack Template Pattern
+# Document Select menu Filter
+
+work in progress of 3 different select menu's filter JSON array
 
 > node package: a sub-project in patterns library
 
