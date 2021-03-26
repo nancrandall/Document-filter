@@ -1,0 +1,51 @@
+{
+   "listItems": [
+      {
+      "id":1,
+      "filterOne": "California",
+      "filterTwo":"Individual and family", 
+      "filterTwoDescription":"In market on October 15, 2019, for January 1, 2020, effectives",  
+      "filterThree":"Enrollment and change",
+      "articleTitles":[ "Enrollment and change form ", "Enrollment and change form ", "Enrollment and change form" ],
+      "pdfDates":[ "Updated (3/31/19) ", "Updated (6/30/19)", "Updated (9/27/19)"],
+      "description":" ",
+      "link":"/static/bcssp/pdfs/shared/nw/2019/KP_NW_SBG_WA_Product_Portfolio_2019.pdf",
+      "linkTitle":"English (PDF) | Español (PDF) | (PDF)"
+      },
+      {
+      "id":2,
+      "filterOne": "Colorado",
+      "filterTwo":"Individual and family", 
+      "filterTwoDescription":"In market on October 15, 2019, for January 1, 2020, effectives",  
+      "filterThree":"Support", 
+      "articleTitles":["Support form", "Support form", "Support form"],
+      "pdfDates":[ "Updated (3/31/19) ", "Updated (6/30/19)", "Updated (9/27/19)"],
+      "description":" ",
+      "link":"/static/bcssp/pdfs/shared/nw/2019/KP_NW_SBG_WA_Product_Portfolio_2019.pdf",
+      "linkTitle":"English (PDF) | Español (PDF) | (PDF)"
+      },
+      {
+      "id":3,
+      "filterOne": "Georgia",
+      "filterTwo":"Small business",
+      "filterTwoDescription":"Help avoid processing delays — make sure you submit fully completed, current versions of the forms below.",      
+      "filterThree":"Enrollment and change",
+      "articleTitles":[ "Enrollment and change form ", "Enrollment and change form ", "Enrollment and change form" ],
+      "pdfDates":[ "Updated (3/31/19) ", "Updated (6/30/19)", "Updated (9/27/19)"],
+      "description":" ",
+      "link":"/static/bcssp/pdfs/shared/nw/2019/KP_NW_SBG_WA_Product_Portfolio_2019.pdf",
+      "linkTitle":"English (PDF) | Español (PDF) | (PDF)"
+      },
+      {
+      "id":3,
+      "filterTwo":"Small business", 
+      "filterTwoDescription":"Help avoid processing delays — make sure you submit fully completed, current versions of the forms below.",    
+      "filterThree":"Change or Other", 
+      "articleTitles":[ "Enrollment and change form ", "Enrollment and change form ", "Enrollment and change form" ],
+      "pdfDates":[ "Updated (3/31/19) ", "Updated (6/30/19)", "Updated (9/27/19)"],
+      "description":" ",
+      "link":"/static/bcssp/pdfs/shared/nw/2019/KP_NW_SBG_WA_Product_Portfolio_2019.pdf",
+      "linkTitle":"English (PDF) | Español (PDF) | (PDF)"
+      }
+    ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Change to Your Pattern's Name</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <!-- JavaScript-->
+    <script type="text/javascript" src="main.js"></script>
+    <!-- CSS-->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="main-body columns-8">
+      <p>This SELECT Dropdown list is filed using data from an external file</p>
+        <div class="form-group">
+          <label for="roleType" class="screenreader-only">Role:</label>
+          <div class="select-one">
+            <select id="roleType" autocomplete="address-level1">
+              <option value="BrokerandAgent">Broker & Agent</option>
+              <option value="Broker">Broker</option>
+               <option value="Agent">Agent</option>
+            </select>
+            <span aria-hidden="true" class="icon-chevron-down"></span>
+          </div>
+   
+      Role type &gt;= <select id="roleType">
+        <option value="">Broker & Agent</option>
+        <option>Broker</option>
+        <option>Agent</option>
+        </select>
+        <br>
+      <br> Topic: <select id="topicType">
+        <option value="">any</option>
+        <option>selling plans</option>
+        <option>other plan</option>
+        </select><br>
+        <p id="output" class="list-articles --underline"></p> 
+        <button class="button button_filter" data-analytics-type="button" data-analytics-click="Primary Button">
+          Primary Button
+        </button>       
+    </div>
+  </div>
+  </body>
+</html>

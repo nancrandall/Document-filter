@@ -1,1 +1,11 @@
+// Loads all styleguide files, besides third-party dependencies.
+@import 'styleguide/global-main';
+@import 'styleguide/lib/modern/stylesheets/icons';
+@import 'styleguide/lib/modern/stylesheets/kp-icons';
+@import 'styleguide/lib/modern/stylesheets/dropdown-overlay.scss';
+@import 'styleguide/lib/modern/stylesheets/checkboxes-lib.scss';
+@import 'styleguide/lib/modern/stylesheets/forms-lib.scss';
+
+//pattern import
+
 @import "filter-menu-index";

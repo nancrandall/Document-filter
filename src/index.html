@@ -1,28 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Change to Your Pattern's Name</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="shortcut icon" href="">
-    <!-- JavaScript-->
-    <script type="text/javascript" src="main.js"></script>
-    <!-- CSS-->
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <div class="container">
-      <p>This SELECT Dropdown list is filed using data from an external file</p>
-      Rating &gt;= <input id="rating" value="5" type="number">
-      <br> Meal: <select id="mealtype">
-        <option value="">any</option>
-        <option>breakfast</option>
-        <option>full</option>
-        </select><br>
-        <p id="output"></p>        
+<head>
+  <title>Filter Menu for BCSSP</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+  <meta content="" name="description">
+  <meta content="width=device-width" name="viewport">
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+  <link href="" rel="shortcut icon">
+  <link href="http://cskpcloudxn1713.cloud.kp.org/styleguide-archive/3.9/main.css" rel="stylesheet"><!-- JavaScript-->
+
+  <script src="main.js" type="text/javascript">
+  </script><!-- CSS-->
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main-body">
+    <div class="main-body__row">
+      <div class="main-body__columns-12">
+
+      <div class="filter-menu">
+      <div class="filter-menu__group">
+      <div class="filter-menu__group-input--inline">
+        <label for="filterOne">Region:</label>
+        <div class="filter-menu__dropdown">
+          <select class="select-filter" id="filterOne">
+            <option value="">
+              Any
+            </option>
+            <option value="California">
+              California
+            </option>
+            <option value="Colorado">
+              Colorado
+              </option>
+            <option value="Georgia">
+              Georgia
+              </option>
+            <option value="Hawaii">
+              Hawaii
+          </option>
+        <option value="East Coast">
+          Maryland / Virginia / Washington D. C.
+        </option>
+        <option value="West Coast">
+          Oregon / SW Washington / Washington                  
+        </option>
+          </select>
+            <span aria-hidden="true" class="icon-chevron-down"></span>
+        </div>
+      </div>
+      <div class="filter-menu__group-input--inline">
+      <label for="filterOne">LINE OF BUSINESS:</label>
+      <div class="filter-menu__dropdown">
+        <select class="select-filter" id="filterTwo">
+          <option value="">
+              All
+          </option>
+          <option value="Individual and family">
+            Individual and family
+          </option>
+          <option value="Small business">
+            Small business
+            </option>
+          <option value="Large business">
+            Large business
+            </option>
+        </select>
+          <span aria-hidden="true" class="icon-chevron-down"></span>
+      </div>
+      </div>
+      <div class="filter-menu__group-input--inline">
+      <label for="filterTwo">TOPIC:</label>
+      <div class="filter-menu__dropdown">
+        <select class="select-filter" id="filterThree">
+          <option value="">
+              All
+          </option>
+          <option value="Enrollment and change">
+            Enrollment and change
+          </option>
+          <option value="Support forms">
+            Support forms
+          </option>
+          <option value="Topic C">
+            Topic C
+          </option>
+        </select> 
+        <span aria-hidden="true" class="icon-chevron-down"></span>
+      </div>
+      </div>
+    <!--   <button class="filter-menu__button" data-analytics-type="button" data-analytics-click="Primary Button">
+      Filter
+      </button>  -->
+      </div>
+      <div>
+        <div class="filter-menu__row">
+
+      <div class="filter-menu__notification">
+      <div class="notification -system-error" data-analytics-location="Notification">
+        <div class="-main">
+          <span id="msg_error4" tabindex="-1" class="screenreader-only">Error</span>
+          <div aria-hidden="true" class="-icon"></div>
+          <div class="-body">
+              <p class="styling-6 -medium">You can include action buttons in notifications that can be retried or dismissed</p>
+              <p>We were unable to determinin your location. The region has been defulted to California. The region can be changed at any time.</p>
+              <div class="-action-buttons -inline">
+                <button class="link">Allow sharing location</button> <span class="divider-vertical-wrap"><i class="divider-vertical"></i></span> <button class="link">Dismiss</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="filter-menu__articles" id="filterMenuArticles"></div>
+      </div>
+      </div>
+      </div>
     </div>
-  </body>
+  </div>
+</div>
+</body>
 </html>

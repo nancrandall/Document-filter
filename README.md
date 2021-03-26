@@ -1,5 +1,4 @@
-# document filter menu  pattern
-3 Select menus that filter array of JS options from JSON menu
+# Base Webpack Template Pattern
 
 > node package: a sub-project in patterns library
 

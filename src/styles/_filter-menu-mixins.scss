@@ -1,15 +1,56 @@
-input,
-select {
-  margin: 1em 0
+
+@mixin filter-menu--styles {
+  .filter-menu__group{
+    background:color('pebble');
+    @include media($desktop) {
+      padding:40px 20px;
+      margin: 40px auto 60px;
+    }
+  }
+  .filter-menu__articles-heading-group{
+    margin-bottom:30px;
+    margin-top: 40px;
+    p{
+      margin:0;
+    }
+  }
+    .filter-menu__dropdown {
+      @include select-one;
+        select {
+            max-width: 100%;
+        }
+    }
+    .filter-menu__button {
+      @include button;
+      max-width: 275px;
+      width: 100%;
+    }
+
+    .filter-menu__group-input--inline {
+    @include form-group;
+    @include media($desktop) {
+      display: inline-block;
+      margin-right: 15px;
+      width: 100%;
+      max-width: 275px
+    }
+  }
 }
 
-#rating {
-  width: 3em
-}
 
-#output span {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 0.5em;
-  margin: 0.5em;
+@mixin filter-menu__article-title--styles {
+  @include styling(4);
+  margin-bottom:10px;
+}
+  
+//Main Body styles
+.main-body {
+  @include newGrid__container;
+}
+.main-body__columns-12{
+@include columns(12);
+//margin: 0 auto;
+}
+.main-body__row, .filter-menu__row {
+  @include rows;
 }
